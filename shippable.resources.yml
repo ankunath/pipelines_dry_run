@@ -22,7 +22,7 @@ resources:
     integration: github-subint
     pointer:
       sourceName: ankunath/pipelines_dry_run
-      branch: "master2"
+      branch: "master"
       branches:
         only:
           - v1.*
