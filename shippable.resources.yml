@@ -1,7 +1,7 @@
 resources:
   - name: nginx-image-1
     type: image
-    integration: "docker-subint"
+    integration: "docker"
     pointer:
       sourceName: "ankul/nginx"
     seed:
@@ -9,7 +9,7 @@ resources:
       
   - name: nginx-image-2
     type: image
-    integration: "docker-subint"
+    integration: "docker"
     pointer:
       sourceName: "ankul/nginx"
     seed:
@@ -20,7 +20,7 @@ resources:
     type: gitRepo
     integration: github-subint
     pointer:
-      sourceName: ankul-shippable/pipelines_dry_run
+      sourceName: ankunath/pipelines_dry_run
       branch: "master2"
       branches:
         only:
