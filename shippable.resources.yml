@@ -27,8 +27,10 @@ resources:
       #   only:
       #     - v1.*
       tagsRegex:
-        only:
+        except:
           - v1.*
+        # except:
+        #   - v2.*
       buildOnTagPush: true #normally false by default
       buildOnPullRequest: true #since this is true by default
       buildOnCommit: true #since this is true by default
