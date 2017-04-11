@@ -23,12 +23,12 @@ resources:
     pointer:
       sourceName: ankunath/ds-sll
       # branch: "master"
-      # branches:
-      #   only:
-      #     - v1.*
-      tagsRegex:
-        except:
+      branches:
+        only:
           - v1.*
+      # tagsRegex:
+      #   except:
+      #     - v1.*
         # except:
         #   - v2.*
       buildOnTagPush: true #normally false by default
