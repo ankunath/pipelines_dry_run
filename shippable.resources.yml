@@ -22,10 +22,10 @@ resources:
     integration: github-subint
     pointer:
       sourceName: ankunath/ds-sll
-      #branch: "master"
-      branches:
-        only:
-          - v1.*
+      branch: "master"
+      # branches:
+      #   only:
+      #     - v1.*
       # buildOnTagPush: true #normally false by default
       buildOnPullRequest: true #since this is true by default
       buildOnCommit: true #since this is true by default
