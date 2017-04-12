@@ -20,3 +20,4 @@ jobs:
       - IN: rsync_test_gitRepo-1
       - TASK:
         - script: printenv
+        - script: echo 'hello'
