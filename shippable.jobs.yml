@@ -13,3 +13,10 @@ jobs:
       - IN: rsync_test_gitRepo
       - TASK:
         - script: printenv
+
+  - name: sample-runSh
+    type: runSh
+    steps:
+      - IN: rsync_test_gitRepo-1
+      - TASK:
+        - script: printenv
