@@ -23,12 +23,13 @@ resources:
     pointer:
       sourceName: ankunath/ds-sll
       # branch: "temp"
-      # branches:
-      #   only:
-      #     - v1.*
-      # buildOnTagPush: true #normally false by default
-      # buildOnPullRequest: false #since this is true by default
-      # buildOnCommit: false #since this is true by default
+      tags:
+        only:
+          - v1.*
+      buildOnTagPush: true #normally false by default
+      buildOnRelease: true #normally false by default
+      buildOnPullRequest: false #since this is true by default
+      buildOnCommit: false #since this is true by default
 
 
   - name: rsync_test_gitRepo-1
