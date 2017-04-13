@@ -21,3 +21,11 @@ jobs:
       - TASK:
         - script: printenv
         - script: echo 'hello123'
+
+  - name: ci-jacoco_runCI
+    type: runCI
+    steps:
+      - OUT: nginx-image-1
+      # - TASK:
+      #   - script: printenv
+      #   - script: echo 'hello123'
