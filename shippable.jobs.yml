@@ -14,13 +14,13 @@ jobs:
       - TASK:
         - script: printenv
 
-  - name: sample-runSh
-    type: runSh
-    steps:
-      - IN: rsync_test_gitRepo
-      - TASK:
-        - script: printenv
-        - script: echo 'ec2'
+  # - name: sample-runSh
+  #   type: runSh
+  #   steps:
+  #     - IN: rsync_test_gitRepo
+  #     - TASK:
+  #       - script: printenv
+  #       - script: echo 'ec2'
 
   # - name: ci-jacoco_runCI
   #   type: runCI
