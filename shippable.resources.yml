@@ -38,7 +38,7 @@ resources:
       buildOnCommit: true #since this is true by default
 
 
-  - name: rsync_test_gitRepo-1
+  - name: rsync_test_gitRepo
     type: gitRepo
     integration: git
     pointer:
