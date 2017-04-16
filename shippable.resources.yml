@@ -25,7 +25,7 @@ resources:
       # branch: "temp"
       branches:
         only:
-          - vtest.*
+          - v1.*
       # tags:
       #   except:
       #     - v1.*
