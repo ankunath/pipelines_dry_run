@@ -20,7 +20,7 @@ jobs:
       - IN: rsync_test_gitRepo
       - TASK:
         - script: printenv
-        - script: echo 'he2'
+        - script: echo 'e2'
 
   # - name: ci-jacoco_runCI
   #   type: runCI
