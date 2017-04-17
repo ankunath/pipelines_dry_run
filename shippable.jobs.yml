@@ -12,6 +12,8 @@ jobs:
       - IN: rsync_test_gitRepo
       - TASK:
         - script: printenv
+        - script: echo 'ec29ssss8777'
+
 
   # - name: sample-runSh
   #   type: runSh
@@ -19,7 +21,6 @@ jobs:
   #     - IN: rsync_test_gitRepo
   #     - TASK:
   #       - script: printenv
-  #       - script: echo 'ec298777'
 
   # - name: ci-jacoco_runCI
   #   type: runCI
