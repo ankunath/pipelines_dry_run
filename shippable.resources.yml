@@ -25,7 +25,7 @@ resources:
       # branch: "temp"
       branches:
         only:
-          - v1.*
+          - master
       # tags:
       #   except:
       #     - v1.*
@@ -38,11 +38,11 @@ resources:
       buildOnCommit: true #since this is true by default
 
 
-  - name: rsync_test_gitRepo
-    type: gitRepo
-    integration: git
-    pointer:
-      sourceName: ankunath/ds-sll
+  # - name: rsync_test_gitRepo
+  #   type: gitRepo
+  #   integration: git
+  #   pointer:
+  #     sourceName: ankunath/ds-sll
       # branch: "temp"
       # branches:
       #   only:
