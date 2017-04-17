@@ -5,7 +5,7 @@ jobs:
     steps:
       - IN: nginx-image-1
       - IN: nginx-image-2
-      - TASK: managed
+      - IN: rsync_test_gitRepo
 
   - name: sample-runSh
     type: runSh
