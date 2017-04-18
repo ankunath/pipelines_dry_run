@@ -21,7 +21,7 @@ resources:
     type: gitRepo
     integration: git
     pointer:
-      sourceName: ankunath/ds-sll
+      # sourceName: ankunath/ds-sll
       # branch: "temp"
       branches:
         only:
