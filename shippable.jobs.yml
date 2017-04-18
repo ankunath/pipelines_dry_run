@@ -13,6 +13,8 @@ jobs:
       - TASK:
         - script: printenv
         - script: echo 'ec29ssss8777'
+      showBuildStatus: true
+
 
 
   # - name: sample-runSh

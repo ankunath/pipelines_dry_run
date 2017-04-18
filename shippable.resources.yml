@@ -34,7 +34,7 @@ resources:
 
       # buildOnTagPush: true #normally false by default
       # buildOnRelease: true #normally false by default
-      showBuildStatus: true
+      # showBuildStatus: true
       buildOnPullRequest: true #since this is true by default
       buildOnCommit: true #since this is true by default
 
