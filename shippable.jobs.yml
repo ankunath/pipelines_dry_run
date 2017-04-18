@@ -11,7 +11,7 @@ jobs:
     steps:
       - IN: rsync_test_gitRepo
         showBuildStatus: true
-      - IN: rsync_test_gitRepo
+      - IN: rsync_test_gitRepo_2
         showBuildStatus: true
       - TASK:
         - script: printenv
