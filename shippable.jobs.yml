@@ -8,8 +8,18 @@ jobs:
       - IN: rsync_test_gitRepo
         showBuildStatus: true
 
-  - name: sample-runSh
-    type: runSh
+  # - name: sample-runSh
+  #   type: runSh
+  #   steps:
+  #     - IN: rsync_test_gitRepo
+  #     - IN: rsync_test_gitRepo2
+  #       showBuildStatus: true
+  #     - TASK:
+  #       - script: printenv
+  #       - script: echo 'ec29ss'
+
+  - name: sample-runCLI
+    type: runCLI
     steps:
       - IN: rsync_test_gitRepo
       - IN: rsync_test_gitRepo2
