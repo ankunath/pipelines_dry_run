@@ -10,7 +10,6 @@ jobs:
     type: runSh
     steps:
       - IN: rsync_test_gitRepo
-        showBuildStatus: true
       - IN: rsync_test_gitRepo2
         showBuildStatus: true
       - TASK:
