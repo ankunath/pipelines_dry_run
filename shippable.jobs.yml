@@ -12,7 +12,6 @@ jobs:
     type: runSh
     steps:
       - IN: rsync_test_gitRepo
-      - IN: rsync_test_gitRepo2
         showBuildStatus: true
       - TASK:
         - script: printenv
