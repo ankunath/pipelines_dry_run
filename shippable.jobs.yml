@@ -8,7 +8,7 @@ jobs:
       # - IN: rsync_test_gitRepo
       #   showBuildStatus: true
 
-  - name: sample-runSh
+  - name: sample-runCLI
     type: runCLI
     steps:
       - IN: rsync_test_gitRepo
