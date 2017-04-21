@@ -14,6 +14,7 @@ jobs:
       - IN: rsync_test_gitRepo
         showBuildStatus: true
       - IN: rsync_test_gitRepo2
+        showBuildStatus: true
       - TASK:
         - script: printenv
         - script: echo 'ec29ss'
